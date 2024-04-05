@@ -115,7 +115,16 @@ class _Screen1State extends State{
                       Color.fromRGBO(62, 102, 24, 1),
                       
                     ]),
-                    borderRadius: BorderRadius.circular(10)
+                    borderRadius: BorderRadius.circular(10),
+                    boxShadow: [
+
+                      BoxShadow( 
+                        color: Color.fromRGBO(0, 0, 0, 0.15),
+                        offset: Offset(0,20),
+                        blurRadius: 40,
+                        spreadRadius: 0
+                      )
+                    ]
                   ),
 
                   child: Row(
