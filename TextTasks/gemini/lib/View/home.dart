@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import 'package:gemini/Model/days.dart';
+import 'package:gemini/Controller/days.dart';
 import 'package:gemini/Model/text.dart';
-import 'package:gemini/Model/togal.dart';
+import 'package:gemini/Controller/togal.dart';
 import 'package:provider/provider.dart';
 
 class Home extends StatefulWidget {

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import "package:gemini/Model/days.dart";
-import "package:gemini/Model/togal.dart";
+import "package:gemini/Controller/days.dart";
+import "package:gemini/Controller/togal.dart";
+import "package:gemini/Model/text.dart";
 import "package:gemini/View/home.dart";
 import "package:provider/provider.dart";
 
